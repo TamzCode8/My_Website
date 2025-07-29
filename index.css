@@ -67,5 +67,10 @@ a:hover{
     color: rgb(0, 255, 179);
     font-size: small;
  }
+ .Me{
+    width: 90%;
+    height: 300px;
+    margin-top: 100px;
+}
 }
 
