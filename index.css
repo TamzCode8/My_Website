@@ -56,4 +56,16 @@ a:hover{
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+@media screen and (max-width:575px) { 
+  #A1,#A2,#A3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    
+} 
+ #Name{
+    margin-top: 50px;
+    color: rgb(0, 255, 179);
+    font-size: small;
+ }
+}
 
