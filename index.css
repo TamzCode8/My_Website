@@ -74,7 +74,8 @@ a:hover{
  .Me{
     width: 90%;
     height: 300px;
-    margin: 100px auto;
+    margin-top: 100px;
+    margin-left: 40px;
 }
 #Web{
     margin-top: 50px;
@@ -88,7 +89,7 @@ a:hover{
     margin-top: 50px;
     color: white;
      position: absolute;
-    top: 40%;
+    top: 60%;
     left: 40px;
     font-size: small;
 }
