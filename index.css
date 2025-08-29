@@ -42,7 +42,6 @@ body{
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
-    color: blue;
 }
 #A1,#A2,#A3{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -61,6 +60,19 @@ a:hover{
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+#Menu{
+    color: white;
+    position: absolute;
+    left: 91%;
+    display: none;
+}
+#Closemenu{
+    color: white;
+    position: absolute;
+    left: 95%;
+    display: none;
+}
+
 @media screen and (max-width:575px) { 
   #A1,#A2,#A3{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -90,10 +102,27 @@ a:hover{
     margin-top: 50px;
     color: white;
      position: absolute;
-    top: 78%;
+    top: 73%;
     left: 20px;
     font-size: small;
-}
 
+}
+#Menu{
+    color: white;
+    position: absolute;
+    left: 91%;
+    display: flex;
+}
+#Closemenu{
+    color: white;
+    position: absolute;
+    left: 95%;
+    display: none;
+}
+#div{
+    margin-top: 50px;
+    display: none;
+    justify-content: space-around;
+}
 }
 
